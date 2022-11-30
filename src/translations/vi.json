@@ -1,0 +1,89 @@
+{
+
+    "home-header":{
+        "pitch-type": "Loại sân",
+        "search-pitch-type": "Tìm sân theo loại sân",
+        "location": "Vị trí sân",
+        "choose-location": "Chọn vị trí sân",
+        "tournaments": "Giải đấu",
+        "create-tournaments": "Tạo giải đấu",
+        "support": "Hỗ trợ" ,
+        "welcome":"Xin chào, "
+    },
+
+    "home-header-banner":{
+        "title1": "NỀN TẢNG ĐẶT SÂN ONLINE",
+        "title2": "TIẾT KIỆM THỜI GIAN VÀ CHI PHÍ",
+        "text-child-1": "Đặt sân 5",
+        "text-child-2": "Đặt sân 7",
+        "text-child-3": "Đặt sân 11",
+        "text-child-4": "Thuê trọng tài"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "crud": "CRUD",
+            "crud-redux": "CRUD Redux",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "clinic": "Sân banh",
+            "manage-clinic": "Quản lý sân banh",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang",
+            "manage-detail-clinic": "Quản lý chi tiết sân banh"
+        },
+        "manage":{
+            "manage-book-pitch": "Quản lý đặt sân",
+            "manage-booking":"Quản lý lịch đặt sân"
+        }
+    },
+    "manage-user":{
+        "add": "thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstname":"Tên",
+        "lastname":"Họ",
+        "numberphone":"Số điện thoại",
+        "address":"Địa chỉ",
+        "gender":"Giới tính",
+        "position":"Chức danh",
+        "role":"Vai trò",
+        "image":"Ảnh đại diện",
+        "save":"Lưu",
+        "edit":"Cập nhật"
+    },
+
+    "manage-clinic":{
+        "add": "thêm mới sân banh",
+        "name": "Tên sân banh",
+        "address": "Địa chỉ",
+        "area":"Khu vực",
+        "description":"Mô tả ",       
+        "image":"Ảnh đại diện",
+        "save":"Lưu",
+        "edit":"Cập nhật"
+    },
+    "homepage":{
+        "more-info":"Xem thêm",
+        "outstangding-doctor":"Các sân bóng mới"
+    },
+    "manage-booking":{
+        "title":"Quản lý đặt sân",
+        "choose-clinic": "Chọn sân",
+        "choose-date": "Chọn ngày",
+        "save": "Lưu"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule":"Lịch đặt sân",
+            "no-schedule":"Hiện tại đã hết sân, vui lòng đặt sân vào thời gian khác!!!",
+            "choose":"Chọn",
+            "book-free":"và đặt free"
+        }
+        
+    }
+    
+}

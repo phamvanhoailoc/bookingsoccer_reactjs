@@ -1,0 +1,87 @@
+{
+
+    "home-header":{
+        "pitch-type": "Pitch-type",
+        "search-pitch-type": "Find yards by pitch type",
+        "location": "Stadium location",
+        "choose-location": "Choose the location of the field",
+        "tournaments": "Tournaments",
+        "create-tournaments": "Create a tournament",
+        "support": "Support",
+        "welcome":"Welcome, "  
+    },
+
+    "home-header-banner":{
+        "title1": "ONLINE COURSE PLANT",
+        "title2": "SAVE TIME AND COST",
+        "text-child-1": "Set yard 5",
+        "text-child-2": "Set yard 7",
+        "text-child-3": "Set yard 11",
+        "text-child-4": "Hire a referee"
+    },
+
+
+    "menu": {
+        "admin": {
+            "manage-user": "Users System",
+            "crud": "CRUD users",
+            "crud-redux": "CRUD redux",
+            "manage-doctor": " Manage doctor",
+            "manage-admin": "manage Admin",
+            "clinic": "pitchs",
+            "manage-clinic": "Manage pitchs",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage Specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook",
+            "manage-detail-clinic": "Manage detail pitchs"
+        },
+        "manage":{
+            "manage-book-pitch": "Manage booking pitch",
+            "manage-booking":"Manage schedule booking"
+        }
+    },
+    "manage-user":{
+        "add": "Add User",
+        "email": "Email",
+        "password": "Password",
+        "firstname":"First Name",
+        "lastname":"Last Name",
+        "numberphone":"Numberphone",
+        "address":"Address",
+        "gender":"Gender",
+        "position":"Position",
+        "role":"Role",
+        "image":"Image",
+        "save":"Save",
+        "edit":"Edit"
+    },
+    "manage-clinic":{
+        "add": "Add Pitch",
+        "name": "Name",
+        "address": "Address",
+        "area":"Area",
+        "description":"Description",       
+        "image":"Image",
+        "save":"Save",
+        "edit":"Edit"
+    },
+    "homepage":{
+        "more-info":"More",
+        "outstangding-doctor":"new football fields"
+    },
+    "manage-booking":{
+        "title":"Manage booking pitch",
+        "choose-clinic": "Choose pitch",
+        "choose-date": "Choose date",
+        "save": "Save"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule":"Booking schedule",
+            "no-schedule":"The course is currently sold out, please rebook for another time!!!",
+            "choose":"Choose",
+            "book-free":"and book for free"
+        }
+    }
+}
