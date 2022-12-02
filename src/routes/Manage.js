@@ -6,6 +6,7 @@ import ManageBookPitch from '../containers/System/Manage/ManageBookPitch'
 
 import Header from '../containers/Header/Header';
 import ManagePatient from '../containers/System/Manage/ManagePatient';
+import ManageBookPitch_1 from '../containers/System/Manage/ManageBookPitch_1'
 
 class Manage extends Component {
     render() {
@@ -18,7 +19,7 @@ class Manage extends Component {
                     <Switch>
                         <Route path="/manage/manage-book-pitch" component={ManageBookPitch} />
                         <Route path="/manage/manage-booking" component={ManagePatient} />
-
+                        <Route path="/manage/manage-book-pitch-1" component={ManageBookPitch_1} />
                         
                     </Switch>
                 </div>

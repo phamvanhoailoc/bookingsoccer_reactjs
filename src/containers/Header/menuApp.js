@@ -8,12 +8,12 @@ export const adminMenu = [
             {
                 name: 'menu.admin.crud-redux', link: '/system/user-redux'
             },
-            {
-                name: 'menu.admin.manage-doctor', link: '/system/user-doctor'
-            },
-            {
-                name: 'menu.admin.manage-admin', link: '/system/user-admin'
-            },
+            // {
+            //     name: 'menu.admin.manage-doctor', link: '/system/user-doctor'
+            // },
+            // {
+            //     name: 'menu.admin.manage-admin', link: '/system/user-admin'
+            // },
            
         ]
     },
@@ -29,27 +29,27 @@ export const adminMenu = [
             {
                 name: 'menu.manage.manage-book-pitch', link: '/manage/manage-book-pitch'
             },
-            {
-                name: 'menu.manage.manage-booking', link: '/manage/manage-booking'
-            },
+            // {
+            //     name: 'menu.manage.manage-booking', link: '/manage/manage-booking'
+            // },
         ]
     },
-    {
-        name: 'menu.admin.specialty',
-        menus:[
-            {
-                name: 'menu.admin.manage-specialty', link: '/system/manage-specialty'
-            }
-        ]
-    },
-    {
-        name: 'menu.admin.handbook',
-        menus:[
-            {
-                name: 'menu.admin.manage-handbook', link: '/system/manage-handbook'
-            }
-        ]
-    },
+    // {
+    //     name: 'menu.admin.specialty',
+    //     menus:[
+    //         {
+    //             name: 'menu.admin.manage-specialty', link: '/system/manage-specialty'
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: 'menu.admin.handbook',
+    //     menus:[
+    //         {
+    //             name: 'menu.admin.manage-handbook', link: '/system/manage-handbook'
+    //         }
+    //     ]
+    // },
 ];
 
 export const manageMenu = [
@@ -58,7 +58,7 @@ export const manageMenu = [
         name: 'menu.admin.clinic',
         menus:[
             {
-                name: 'menu.manage.manage-book-pitch', link: '/manage/manage-book-pitch'
+                name: 'menu.manage.manage-book-pitch', link: '/manage/manage-book-pitch-1'
             },
             {
                 name: 'menu.manage.manage-booking', link: '/manage/manage-booking'

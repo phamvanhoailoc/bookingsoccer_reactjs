@@ -54,7 +54,8 @@
         "role":"Role",
         "image":"Image",
         "save":"Save",
-        "edit":"Edit"
+        "edit":"Edit",
+        "pitch":"Pitch manage"
     },
     "manage-clinic":{
         "add": "Add Pitch",
@@ -83,5 +84,21 @@
             "choose":"Choose",
             "book-free":"and book for free"
         }
+    },
+    "manage-detail-clinic":{
+        "title": "Manage yard details",
+        "Choose-a-Court": "Choose a Court",
+        "Introduction-information":"Introduction information",
+        "button-create-information":"create information",
+        "button-save-information":"save information"
+    },
+    "manage-patient":{
+        "title":"Manage booking pitch",
+        "Time":"Time",
+        "Name":"Name",
+        "address": "Address",
+        "gender": "Gender",
+        "no-data":"No schedule for today !!!",
+        "choose-date":"Choose date"
     }
 }

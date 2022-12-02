@@ -55,13 +55,13 @@ class HomeHeader extends Component {
             <div className="content-up">
                 <div className="title1"><FormattedMessage id="home-header-banner.title1"/></div>
                 <div className="title2"><FormattedMessage id="home-header-banner.title2"/></div>
-                <div className="search">
+                {/* <div className="search">
                     <i className="fas fa-search"></i>
                     <input type="text" placeholder="Tìm sân đá banh"></input>
-                </div>
+                </div> */}
             </div>
             <div className="content-down">
-                <div className="options">
+                {/* <div className="options">
                     <div className="option-child">
                         <div className="icon-child"><i className="fas fa-hospital"></i></div>
                         <div className="text-child"><FormattedMessage id="home-header-banner.text-child-1"/></div>
@@ -78,7 +78,7 @@ class HomeHeader extends Component {
                         <div className="icon-child"><i className="fas fa-hospital"></i></div>
                         <div className="text-child"><FormattedMessage id="home-header-banner.text-child-4"/></div>
                     </div>
-                </div>
+                </div> */}
                 
             </div>
            </div>

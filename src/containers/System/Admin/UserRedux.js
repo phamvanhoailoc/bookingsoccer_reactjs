@@ -284,7 +284,7 @@ class UserRedux extends Component {
                                 ></input>
                             </div>
                             <div className="col-3 mt-3">
-                                <label> <FormattedMessage id="manage-user.address"/></label>
+                                <label> <FormattedMessage id="manage-user.pitch"/></label>
                                 <Select
                                     value={selectedOption}
                                     onChange={this.handleChangeSelect}
