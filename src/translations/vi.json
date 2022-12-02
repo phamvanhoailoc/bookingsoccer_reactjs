@@ -69,7 +69,11 @@
     },
     "homepage":{
         "more-info":"Xem thêm",
-        "outstangding-doctor":"Các sân bóng mới"
+        "outstangding-doctor":"Các sân bóng mới",
+        "Popular-pitches": "Các sân phổ biến",
+        "Counties": "Các quận",
+        "Handbook": "Cẩm nang",
+        "Instructions": "Hướng dẫn cách book sân với wed BookingSoccer"
     },
     "manage-booking":{
         "title":"Quản lý đặt sân",

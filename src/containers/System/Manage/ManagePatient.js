@@ -125,11 +125,11 @@ class ManagePatient extends Component {
             
             <div className="manage-patient-container">
                 <div className="m-p-title">
-                    Quản lý đặt sân
+                <FormattedMessage id="manage-patient.title"/>
                 </div>
                 <div className="manage-patient-body row">
                     <div className="col-4 from-group">
-                        <label>Chọn ngày</label>
+                        <label><FormattedMessage id="manage-patient.choose-date"/></label>
                         <DatePicker
                             onChange={this.handleOnChangeDatePicker}
                             className="form-control"
@@ -141,10 +141,10 @@ class ManagePatient extends Component {
                             <tbody>
                                 <tr>
                                     <th>STT</th>
-                                    <th>Thời gian</th>
-                                    <th>Họ và tên</th>
-                                    <th>Địa chỉ</th>
-                                    <th>Giới tính</th>
+                                    <th><FormattedMessage id="manage-patient.Time"/></th>
+                                    <th><FormattedMessage id="manage-patient.Name"/></th>
+                                    <th><FormattedMessage id="manage-patient.address"/></th>
+                                    <th><FormattedMessage id="manage-patient.gender"/></th>
                                     <th>Actions</th>
                                 </tr>
                                 {dataPatient && dataPatient.length > 0 ?
@@ -174,7 +174,7 @@ class ManagePatient extends Component {
                                     })
                                     :
                                     <tr>
-                                        <td colSpan="6" style={{textAlign: "center"}}>no data</td>
+                                        <td colSpan="6" style={{textAlign: "center"}}><FormattedMessage id="manage-patient.no-data"/></td>
                                     </tr>
                                 }
 

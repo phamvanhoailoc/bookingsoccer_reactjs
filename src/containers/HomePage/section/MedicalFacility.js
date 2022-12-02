@@ -18,8 +18,8 @@ class MedicalFacility extends Component {
             <div className="section-share section-medical-specialty">
                 <div className="section-container">
                     <div className="section-header">
-                        <span className="title-section">Các quận</span>
-                        <button className="btn-section">xem thêm</button>
+                        <span className="title-section"><FormattedMessage id="homepage.Counties"/></span>
+                        <button className="btn-section"><FormattedMessage id="homepage.more-info"/></button>
                     </div>
                 
                     <div className="section-body">

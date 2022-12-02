@@ -17,7 +17,7 @@ class About extends Component {
         return (
             <div className="section-share section-about">
                <div className="section-about-header">
-                    Hướng dẫn cách book sân với wed BookingSoccer
+               <FormattedMessage id="homepage.Instructions"/>
                </div>
                <div className="section-about-content">
                     <div className="content-left">

@@ -138,10 +138,10 @@ class ManageDetailClinic extends Component {
         let {listpitch,description,selectedOption} = this.state;
         return (
             <div className="manage-clinic-content" >
-               <div className="manage-clinic-title">Quản lý chi tiết sân</div>
+               <div className="manage-clinic-title"><FormattedMessage id="manage-detail-clinic.title"/></div>
                <div className="more-info">
                 <div className="content-left form-group">
-                    <label>Chọn Sân</label>
+                    <label><FormattedMessage id="manage-detail-clinic.Choose-a-Court"/></label>
                     <Select
                         value={selectedOption}
                         onChange={this.handleChangeSelect}
@@ -149,7 +149,7 @@ class ManageDetailClinic extends Component {
                     />
                 </div>
                 <div className="content-right form-group">
-                    <label>Thông tin giới thiệu:</label>
+                    <label><FormattedMessage id="manage-detail-clinic.Introduction-information"/> :</label>
                     <textarea className="form-control" rows="4"
                     onChange={(event) => {this.OnChageInput(event, "description")}}
                      value={description}   
@@ -168,7 +168,7 @@ class ManageDetailClinic extends Component {
                 className={hasOldData === true ? "save-content-clinic" : "create-content-clinic"}
                >
                 {hasOldData === true ? 
-                <span>Lưu thông tin</span>:<span>Tạo thông tin</span>
+                <span><FormattedMessage id="manage-detail-clinic.button-save-information"/></span>:<span><FormattedMessage id="manage-detail-clinic.button-create-information"/></span>
                 }
                </button>
             </div>

@@ -69,7 +69,11 @@
     },
     "homepage":{
         "more-info":"More",
-        "outstangding-doctor":"new football fields"
+        "outstangding-doctor":"new football fields",
+        "Popular-pitches": "Popular pitches",
+        "Counties": "Counties",
+        "Handbook": "Handbook",
+        "Instructions": "Instructions on how to book the pitch with wed BookingSoccer"
     },
     "manage-booking":{
         "title":"Manage booking pitch",
