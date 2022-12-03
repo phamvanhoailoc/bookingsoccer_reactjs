@@ -22,7 +22,7 @@ class About extends Component {
                <div className="section-about-content">
                     <div className="content-left">
                         <iframe width="60%" height="400px" 
-                            src="https://www.youtube.com/watch?v=qeRLCWjCBqY" 
+                            src="https://www.youtube.com/embed/35AYvwl-hpw" 
                             title="Nét pro Lộc Ráng chiều" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
